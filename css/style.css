@@ -11,7 +11,7 @@
   
   .headerli a {
     display: block;
-    color: black;
+    color: rgb(49, 48, 48);
     text-align: center;
     padding: 5px 5px;
     text-decoration: none;
@@ -34,7 +34,8 @@
 
   .voice {
     width: 1.5rem;
-    float: right;
+    margin-left: 37.5vw;
+    position: absolute;
   }
 
   .search-area {
@@ -120,7 +121,7 @@
   }
   
   .googlesearch {
-    margin: 11px 4px;
+    margin: 25px 4px;
     padding: 0 16px;
     line-height: 35px;
     min-width: 54px;
@@ -178,4 +179,11 @@
   
   .footerli a:hover {
     text-decoration: underline;
+  }
+
+  @media(max-width:768) {
+    .header {
+      margin-left: 30px;
+      
+    }
   }
